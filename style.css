@@ -1,0 +1,66 @@
+body{
+    background:url("webwxgetmsgimg.jpg") no-repeat;
+    background-size: 100%;
+}
+main{
+    margin-top: 100px;
+    padding: 0 50px;
+}
+nav a.active{
+    color: #fff;
+}
+nav a{
+    display: inline-block;
+    float: left;
+    width: 50%;
+    color: rgba(255, 255, 255, 0.44);
+    text-align: center;
+    text-decoration: none;
+}
+nav a span{
+    text-align: center;
+    padding: 10px;
+}
+nav a.active span{
+    border-bottom: 2px solid #f2a910;
+}
+section{
+    padding: 100px 0;
+}
+section input{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+section input[type=text]{
+    padding: 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    background: none ;
+    border-radius: 5px;
+
+}
+section input[type=text]::-webkit-input-placeholder{
+    color: #fff;
+}
+section input[type=submit]{
+    background: #f8883b;
+    border: none;
+    color: #fff;
+    height: 30px;
+    box-shadow: 1px 1px salmon;
+}
+section div{
+    margin: 20px 0;
+}
+.forget{
+    text-align: center;
+    border-top: 1px solid #ffffff73;
+    padding: 10px ;
+    font-size: 12px;
+}
+.forget a{
+    color:#ffffff73;
+    text-decoration: none;
+}
