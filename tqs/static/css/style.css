@@ -1,0 +1,66 @@
+main{
+
+    padding: 10px 20px;
+    width: 555px;
+    letter-spacing:1px;
+    border: 1px solid #ccc;
+}
+.top{
+    height: 40px;
+}
+.top .img{
+    float: left;
+}
+.top .img img{
+    height: 40px;
+}
+.top .title{
+    font-family: "宋体";
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+    color: red;
+}
+.middle{
+    margin-top: 10px;
+    height: 40px;
+    line-height: 40px;
+}
+.middle .funds{
+    float: left;
+    font-weight: bold;
+}
+.middle .funds span{
+    font-weight: normal;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.middle .Money{
+    border: 1px solid #ccc;
+}
+.middle .Money{
+    float: right;
+    display: -webkit-box;
+}
+.middle .Money .rmb{
+    text-align: center;
+    width: 59px;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px;
+}
+.middle .Money .Brmb{
+    width: 153px;
+    font-weight: bold;
+    padding: 0 10px;
+    background: linear-gradient( #ff7167 30%,#ffffff 30%);
+    background-size: 100% 4px;
+}
+.bottom{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 49px;
+}
