@@ -1,0 +1,122 @@
+body{
+    /*padding: 0;*/
+    /*margin: 0;*/
+}
+.container{
+    width: 100%;
+    max-width:500px;
+    margin: 0 auto;
+    padding-top:20px;
+}
+header{
+    display: flex;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 9px;
+}
+header>div{
+    width: 50%;
+    justify-content:flex-end;
+}
+.selectBox{
+    width: 50%;
+}
+.selectBox select{
+    width: 50%;
+    height: 30px;
+    border: none;
+    background: url("../img/down.png") right no-repeat;
+    background-size: 20px;
+    appearance:none;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    padding-right: 5px;
+}
+.searchBox{
+    position: relative;
+}
+.searchBox input{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    text-indent: 30px;
+    background-color: #f3f3f3;
+    border: none;
+    padding: 5px;
+}
+.searchBox img{
+    top: 20%;
+    left: 5px;
+    height: 80%;
+    position: absolute;
+}
+.navList{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.navList figure{
+    margin: 9px;
+}
+.navList figure img{
+    width: 100%;
+}
+.navList figure figcaption{
+    text-align: center;
+}
+.sList .sListLi{
+    display: flex;
+}
+.sList .sListLi figure{
+    margin: 0;
+    position: relative;
+}
+.sList .sListLi img{
+    width: 100%;
+    height: 100%;
+}
+.sList .sListLi figure figcaption{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    height: 20px;
+    position: absolute;
+    bottom:13%;
+}
+.sList .sListLi:last-child figure figcaption{
+    bottom: 45%;
+    left: 20%;
+}
+.showNav{
+    display: flex;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #ccc;
+}
+.showNav>div{
+    width: 20%;
+    padding: 5px;
+
+}
+.showNav>div>a{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ccc;
+}
+.showNav>div.show>a{
+    background-color: #fff;
+    color: #ccc;
+}
+.table_s{
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+.table_s td{
+    height: 40px;
+}
